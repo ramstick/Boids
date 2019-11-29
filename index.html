@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- P5 js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <!-- My garbage code -->
+    <script src="Boids.js"></script>
+    <script src="script.js"></script>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: arial;
+        }
+        
+        #pause {
+            position: absolute;
+            left: 1100px;
+            border-radius: 2px;
+            background-color: #33333333;
+            width: 60px;
+            height: 40px;
+            font-size: 18px;
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        #pause:visited {
+            color: white;
+        }
+        
+        canvas {
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#" id="pause" onclick="run=!run;if(run)document.getElementById('pause').innerHTML='Pause';else document.getElementById('pause').innerHTML='Run';">Pause</a>
+
+</body>
+
+</htm
